@@ -4,8 +4,8 @@ terraform {
 
 provider "aws" {
    region     = "us-west-2"
-  access_key = "AKIAU2V2XBTF3JW3UNNR"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
 }
 
 resource "aws_vpc" "jenkins_sg" {
