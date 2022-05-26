@@ -1,7 +1,7 @@
 variable "var1" {
   type        = string
   description = "CIDR for the VPC"
-  default     = "10.1.0.0/20"
+  default     = ""
 }
 
 variable "key_name" {
